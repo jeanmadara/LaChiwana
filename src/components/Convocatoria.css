@@ -1,0 +1,219 @@
+.convocatoria {
+    padding: 100px 20px;
+    background-color: var(--color-bg);
+    color: var(--color-text-dark);
+    min-height: 100vh;
+}
+
+.convocatoria-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.convocatoria-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.colmena-mini-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+}
+
+.logo-section span {
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--color-primary);
+}
+
+.convocatoria-header h1 {
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    /* Coral oficial */
+    margin-bottom: 10px;
+}
+
+.convocatoria-header h2 {
+    font-size: 1.5rem;
+    color: var(--color-text-dark);
+    opacity: 0.9;
+}
+
+.convocatoria-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 60px;
+}
+
+.convocatoria-main-text p {
+    font-size: 1.15rem;
+    /* Ligeramente más grande */
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: var(--color-text-dark);
+    font-weight: 400;
+}
+
+.intro {
+    font-size: 1.25rem !important;
+    font-weight: 500;
+}
+
+.itinerary-box {
+    background: rgba(255, 71, 55, 0.08);
+    /* Uso de color-primary (coral) con opacidad */
+    padding: 30px;
+    border-radius: 20px;
+    border-left: 5px solid var(--color-primary);
+}
+
+.itinerary-box h3 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.itinerary-box ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+}
+
+.itinerary-box li {
+    color: var(--color-text-dark);
+}
+
+.itinerary-box li::before {
+    content: "📍";
+    margin-right: 10px;
+}
+
+.detail-card,
+.calendar-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.detail-card h3,
+.calendar-card h3 {
+    margin-bottom: 20px;
+    color: var(--color-accent);
+    /* Turquesa oficial */
+}
+
+.detail-card ul {
+    list-style: none;
+}
+
+.detail-card li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+    color: var(--color-text-dark);
+}
+
+.detail-card li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #81C784;
+    /* Verde Pastel más visible */
+    font-weight: bold;
+}
+
+.date-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.date-item .label {
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.date-item.highlight {
+    background: rgba(255, 71, 55, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 3px solid var(--color-primary);
+}
+
+.date-item .value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* Más grueso */
+    color: var(--color-text-dark);
+}
+
+.apply-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.apply-section p {
+    color: var(--color-text-dark);
+    margin-bottom: 25px;
+}
+
+.cta-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    width: 100%;
+    max-width: 250px;
+}
+
+.cta-button.secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+@media (max-width: 968px) {
+    .convocatoria-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .convocatoria-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .itinerary-box ul {
+        grid-template-columns: 1fr;
+    }
+}
