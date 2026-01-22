@@ -41,6 +41,13 @@
     color: var(--color-primary);
 }
 
+.hero-logo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    filter: brightness(0) invert(1) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
 .hero-subtitle {
     font-size: 1.25rem;
     font-weight: 300;
@@ -75,5 +82,9 @@
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2.5rem;
+    }
+
+    .hero-logo {
+        max-width: 280px;
     }
 }

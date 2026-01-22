@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './About.css';
 
 const images = [
-    "/assets/img/About/SALANGO PARA MEDIOS (4 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (5 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (8 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (10 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (11 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (13 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (18 of 40).webp",
-    "/assets/img/About/SALANGO PARA MEDIOS (22 of 40).webp"
+    "assets/img/About/SALANGO PARA MEDIOS (4 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (5 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (8 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (10 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (11 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (13 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (18 of 40).webp",
+    "assets/img/About/SALANGO PARA MEDIOS (22 of 40).webp"
 ];
 
 export default function About() {

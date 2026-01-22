@@ -9,7 +9,7 @@ const projectsData = [
         title: "La Colmena",
         category: "Muralismo Comunitario",
         tagline: "Residencia Artística de Muralismo Contemporáneo",
-        image: "/assets/img/DSC04679.webp",
+        image: "assets/img/DSC04679.webp",
         description: "Proyecto artístico que reúne a artistas internacionales y locales para transformar el espacio público de Olón.",
         longDescription: "La Colmena es una residencia intensiva de 23 días diseñada para proporcionar a artistas emergentes herramientas técnicas de muralismo y metodologías de vinculación comunitaria. Durante el proceso, se rescata la identidad ancestral costeña y se promueve la conciencia ambiental.",
         dates: "1 al 23 de Marzo, 2026",
@@ -25,12 +25,12 @@ const projectsData = [
             { label: "Artistas", value: "15" }
         ],
         gallery: [
-            "/assets/img/Murales/CDP_8076.webp",
-            "/assets/img/Murales/CDP_8146.webp",
-            "/assets/img/Murales/CDP_8262.webp",
-            "/assets/img/Murales/CDP_8273.webp",
-            "/assets/img/Murales/CDP_0655.webp",
-            "/assets/img/Murales/WhatsApp Image 2024-02-29 at 9.36.58 PM(2).webp"
+            "assets/img/Murales/CDP_8076.webp",
+            "assets/img/Murales/CDP_8146.webp",
+            "assets/img/Murales/CDP_8262.webp",
+            "assets/img/Murales/CDP_8273.webp",
+            "assets/img/Murales/CDP_0655.webp",
+            "assets/img/Murales/WhatsApp Image 2024-02-29 at 9.36.58 PM(2).webp"
         ]
     },
     {
@@ -38,7 +38,7 @@ const projectsData = [
         title: "Espacio Cultural Lachiwana",
         category: "Centro Comunitario",
         tagline: "Un oasis de creatividad y encuentro comunitario",
-        image: "/assets/img/LaChiwana/DSC04666.webp",
+        image: "assets/img/LaChiwana/DSC04666.webp",
         description: "Centro dedicado a la promoción del arte y la cultura en Olón, ofreciendo talleres y formación para todas las edades.",
         longDescription: "El Espacio Cultural Lachiwana es un punto de encuentro multidisciplinario que desde 2020 impulsa el tejido social de Olón. Es una plataforma para artistas locales e internacionales, ofreciendo desde exposiciones de arte contemporáneo hasta talleres educativos y festivales comunitarios.",
         dates: "Abierto todo el año",
@@ -54,12 +54,12 @@ const projectsData = [
             { label: "Artistas", value: "50+" }
         ],
         gallery: [
-            "/assets/img/LaChiwana/DSC04666.webp",
-            "/assets/img/LaChiwana/DSC04679.webp",
-            "/assets/img/LaChiwana/GOPR4333.webp",
-            "/assets/img/LaChiwana/WhatsApp Image 2023-10-20 at 2.09.27 PM.webp",
-            "/assets/img/LaChiwana/WhatsApp Image 2024-02-29 at 11.05.59 PM.webp",
-            "/assets/img/LaChiwana/WhatsApp Image 2024-02-29 at 11.06.07 PM(1).webp"
+            "assets/img/LaChiwana/DSC04666.webp",
+            "assets/img/LaChiwana/DSC04679.webp",
+            "assets/img/LaChiwana/GOPR4333.webp",
+            "assets/img/LaChiwana/WhatsApp Image 2023-10-20 at 2.09.27 PM.webp",
+            "assets/img/LaChiwana/WhatsApp Image 2024-02-29 at 11.05.59 PM.webp",
+            "assets/img/LaChiwana/WhatsApp Image 2024-02-29 at 11.06.07 PM(1).webp"
         ]
     }
 ];

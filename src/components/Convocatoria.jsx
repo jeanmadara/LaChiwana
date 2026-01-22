@@ -14,7 +14,7 @@ export default function Convocatoria() {
                     transition={{ duration: 1.2 }}
                 >
                     <div className="logo-section">
-                        <img src="/assets/img/DSC04679.webp" alt="La Colmena Logo" className="colmena-mini-logo" />
+                        <img src="assets/img/DSC04679.webp" alt="La Colmena Logo" className="colmena-mini-logo" />
                         <span>LA COLMENA</span>
                     </div>
                     <h1>CONVOCATORIA</h1>
