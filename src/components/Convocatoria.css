@@ -1,7 +1,7 @@
 .convocatoria {
     padding: 100px 20px;
     background-color: var(--color-bg);
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
     min-height: 100vh;
 }
 
@@ -46,7 +46,7 @@
 
 .convocatoria-header h2 {
     font-size: 1.5rem;
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
     opacity: 0.9;
 }
 
@@ -61,7 +61,7 @@
     /* Ligeramente más grande */
     line-height: 1.8;
     margin-bottom: 25px;
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
     font-weight: 400;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .itinerary-box li {
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
 }
 
 .itinerary-box li::before {
@@ -168,7 +168,7 @@
 }
 
 .apply-section p {
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
     margin-bottom: 25px;
 }
 

@@ -35,7 +35,7 @@ export default function About() {
                 >
                     <img
                         src={images[currentImage]}
-                        alt={`La Chiwana Community ${currentImage + 1}`}
+                        alt={`Lachiwana Community ${currentImage + 1}`}
                     />
                     <div className="gallery-dots">
                         {images.map((_, index) => (

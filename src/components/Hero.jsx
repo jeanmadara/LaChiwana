@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section id="hero" className="hero">
             <div className="hero-background">
-                <img src="assets/img/DSC04645.webp" alt="La Chiwana Landscape" />
+                <img src="assets/img/DSC04645.webp" alt="Lachiwana Landscape" />
             </div>
 
             <motion.div
@@ -20,7 +20,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2, duration: 1.2 }}
                 >
-                    <img src="assets/logo/logo.png" alt="La Chiwana" className="hero-logo" />
+                    <img src="assets/logo/logo.png" alt="Lachiwana" className="hero-logo" />
                 </motion.div>
                 <motion.p
                     className="hero-subtitle"

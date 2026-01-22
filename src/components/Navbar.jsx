@@ -47,7 +47,7 @@ export default function Navbar() {
             <div className="navbar-container">
                 {/* Logo */}
                 <a href="#hero" className="navbar-logo">
-                    LA CHIWANA
+                    LACHIWANA
                 </a>
 
                 {/* Desktop Menu */}

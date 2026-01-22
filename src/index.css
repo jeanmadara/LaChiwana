@@ -1,8 +1,8 @@
 /* Patrones Geométricos */
 :root {
-  --pattern-triangles: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='60' viewBox='0 0 100 60'%3E%3Cpath d='M0 60 L50 0 L100 60 M0 60 L100 60' fill='none' stroke='%23FF4737' stroke-width='4'/%3E%3Cpath d='M10 60 L50 12 L90 60' fill='none' stroke='%23FF4737' stroke-width='2' opacity='0.7'/%3E%3C/svg%3E");
+  --pattern-triangles: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='60' viewBox='0 0 100 60'%3E%3Cpath d='M0 60 L50 0 L100 60 M0 60 L100 60' fill='none' stroke='%23F49719' stroke-width='4'/%3E%3Cpath d='M10 60 L50 12 L90 60' fill='none' stroke='%23F49719' stroke-width='2' opacity='0.7'/%3E%3C/svg%3E");
   --pattern-mesh: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath d='M0 20 L20 0 L40 20 L20 40 Z' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.2'/%3E%3C/svg%3E");
-  --pattern-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40' viewBox='0 0 120 40'%3E%3Cpath d='M0 40 C 20 40, 20 20, 40 20 C 60 20, 60 40, 80 40 C 100 40, 100 20, 120 20' fill='none' stroke='%23FF4737' stroke-width='5'/%3E%3C/svg%3E");
+  --pattern-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40' viewBox='0 0 120 40'%3E%3Cpath d='M0 40 C 20 40, 20 20, 40 20 C 60 20, 60 40, 80 40 C 100 40, 100 20, 120 20' fill='none' stroke='%23F49719' stroke-width='5'/%3E%3C/svg%3E");
 }
 
 .pattern-divider {
@@ -32,16 +32,16 @@
 }
 
 :root {
-  --color-primary: #FF4737;
-  /* Naranja/Coral oficial */
-  --color-secondary: #006666;
-  /* Turquesa Profundo (Nuevo secundario) */
-  --color-accent: #008080;
-  /* Turquesa medio para acentos */
-  --color-highlight: #B2F2BB;
-  /* Verde Pastel */
-  --color-bg: #5FB8B8;
-  /* Turquesa oscuro ajustado para mejor contraste de texto oscuro */
+  --color-primary: #F49719;
+  /* Naranja brillante */
+  --color-secondary: #098D98;
+  /* Teal */
+  --color-accent: #3BBCD7;
+  /* Cyan */
+  --color-highlight: #646C2F;
+  /* Olive */
+  --color-bg: #575756;
+  /* Gray */
   --color-text: #F4F4F4;
   /* Texto claro para fondos oscuros */
   --color-text-dark: #1A1A1A;

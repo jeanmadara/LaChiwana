@@ -5,7 +5,7 @@ export default function Contact() {
         <section id="footer" className="contact-section">
             <div className="contact-container">
                 <div className="contact-col">
-                    <h4>La Chiwana</h4>
+                    <h4>Lachiwana</h4>
                     <p>Colectivo cultural y artístico. Transformando comunidades a través del arte.</p>
                 </div>
 
